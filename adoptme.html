@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt a Dog</title>
+    <style>
+        body {
+            background-color: rgb(179, 211, 219);
+            font-family: sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            margin-bottom: 24px;
+        }
+
+        form {
+            background: white;
+            padding: 24px;
+            border-radius: 8px;
+            max-width: 500px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h3 {
+            margin: 0 0 10px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 4px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 6px 8px;
+            margin-top: 2px;
+            box-sizing: border-box;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+        }
+
+        .radio-group label,
+        .checkbox-group label {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 6px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 24px;
+            background-color: #4a90a4;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background-color: #357a8a;
+        }
+
+        a {
+            display: inline-block;
+            margin-bottom: 16px;
+            color: #357a8a;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">← Back</a>
+    <h1>Adopt a Dog</h1>
+
+    <form>
+        <!-- Personal info -->
+        <div class="section">
+            <h3>Your Information</h3>
+            <label>
+                Full Name
+                <input type="text" name="name" placeholder="e.g. John Smith">
+            </label>
+            <label>
+                Address
+                <input type="text" name="address" placeholder="e.g. 123 Main St">
+            </label>
+            <label>
+                City
+                <input type="text" name="city" placeholder="e.g. Bangkok">
+            </label>
+            <label>
+                Phone Number
+                <input type="text" name="phone" placeholder="e.g. 081-234-5678">
+            </label>
+        </div>
+
+        <!-- Habitat dropdown -->
+        <div class="section">
+            <h3>Living Environment</h3>
+            <label>
+                Preferred habitat for the dog
+                <select name="habitat">
+                    <option value="">-- Select --</option>
+                    <option value="house_garden">House with garden</option>
+                    <option value="house_no_garden">House without garden</option>
+                    <option value="condo">Condo / Apartment</option>
+                    <option value="farm">Farm / Rural area</option>
+                </select>
+            </label>
+        </div>
+
+        <!-- Behavior radio buttons -->
+        <div class="section">
+            <h3>Preferred Dog Behavior</h3>
+            <div class="radio-group">
+                <label><input type="radio" name="behavior" value="calm"> Calm &amp; gentle</label>
+                <label><input type="radio" name="behavior" value="playful"> Playful &amp; energetic</label>
+                <label><input type="radio" name="behavior" value="protective"> Protective</label>
+                <label><input type="radio" name="behavior" value="any"> No preference</label>
+            </div>
+        </div>
+
+        <!-- Number of pets -->
+        <div class="section">
+            <h3>Number of Dogs to Adopt</h3>
+            <label>
+                How many dogs?
+                <input type="number" name="quantity" min="1" max="100" value="1">
+            </label>
+        </div>
+
+        <!-- Agreement checkbox -->
+        <div class="section">
+            <h3>Agreement</h3>
+            <div class="checkbox-group">
+                <label>
+                    <input type="checkbox" name="agree" required>
+                    I understand and agree that adopted dogs cannot be returned.
+                </label>
+            </div>
+        </div>
+
+        <button type="submit">Submit Adoption Request</button>
+    </form>
+    <script src="adoptme.js"></script>
+</body>
+</html>

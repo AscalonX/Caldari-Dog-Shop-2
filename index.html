@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caldari Dog Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(87, 93, 126);
+            font-family: sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            font-family: 'Cinzel Decorative', cursive;
+            font-size: 2.4rem;
+            color: #f0d080;
+            text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+            margin-bottom: 20px;
+        }
+
+        .dog-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .dog-card {
+            background: white;
+            border-radius: 8px;
+            padding: 12px;
+            width: 220px;
+        }
+
+        .dog-card img {
+            width: 100%;
+            min-height: 200px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .dog-card h3 {
+            margin: 8px 0 4px;
+        }
+
+        .dog-card p {
+            margin: 2px 0;
+            font-size: 14px;
+            color: #444;
+        }
+
+        .adopt-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #bea566;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        .adopt-link:hover {
+            background-color: #357a8a;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 12px;
+            left: 16px;
+            font-size: 20px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Caldari Dog Shop</h1>
+
+    <div class="dog-grid">
+        <div class="dog-card">
+            <img src="img/dog1.jpeg" alt="Buddy">
+            <h3>Buddy</h3>
+            <p>Breed: Golden Retriever</p>
+            <p>Age: 2 years</p>
+            <p>Gender: Male</p>
+        </div>
+        <div class="dog-card">
+            <img src="img/dog6.jpeg" alt="Luna">
+            <h3>Luna</h3>
+            <p>Breed: Shiba Inu</p>
+            <p>Age: 1 year</p>
+            <p>Gender: Female</p>
+        </div>
+        <div class="dog-card">
+            <img src="img/dog3.jpg" alt="Max">
+            <h3>Max</h3>
+            <p>Breed: Labrador</p>
+            <p>Age: 3 years</p>
+            <p>Gender: Male</p>
+        </div>
+        <div class="dog-card">
+            <img src="img/dog4.jpg" alt="Bella">
+            <h3>Bella</h3>
+            <p>Breed: Poodle</p>
+            <p>Age: 2 years</p>
+            <p>Gender: Female</p>
+        </div>
+    </div>
+
+    <a class="adopt-link" href="adoptme.html">Adopt a Dog</a>
+
+    <footer>6833102821 Tanakit Kaewhawong</footer>
+</body>
+</html>
