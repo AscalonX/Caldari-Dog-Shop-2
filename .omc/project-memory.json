@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1773120685673,
+  "projectRoot": "/home/raphael/Chula/Frontend/a02-swdevprac2-AscalonX",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "img": {
+      "path": "img",
+      "purpose": null,
+      "fileCount": 6,
+      "lastAccessed": 1773120685672,
+      "keyFiles": [
+        "dog1.jpeg",
+        "dog2.webp",
+        "dog3.jpg",
+        "dog4.jpg",
+        "dog5.avif"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "adoptme.html",
+      "accessCount": 2,
+      "lastAccessed": 1773120752989,
+      "type": "file"
+    },
+    {
+      "path": "adoptme.js",
+      "accessCount": 1,
+      "lastAccessed": 1773120749052,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
