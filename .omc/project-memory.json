@@ -1,0 +1,76 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1773246156399,
+  "projectRoot": "/home/raphael/Chula/Frontend/a02-swdevprac2-AscalonX",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "img": {
+      "path": "img",
+      "purpose": null,
+      "fileCount": 6,
+      "lastAccessed": 1773246156397,
+      "keyFiles": [
+        "dog1.jpeg",
+        "dog2.webp",
+        "dog3.jpg",
+        "dog4.jpg",
+        "dog5.avif"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "adoptme.html",
+      "accessCount": 1,
+      "lastAccessed": 1773246174885,
+      "type": "file"
+    },
+    {
+      "path": "index.html",
+      "accessCount": 1,
+      "lastAccessed": 1773246175314,
+      "type": "file"
+    },
+    {
+      "path": "adoptme.js",
+      "accessCount": 1,
+      "lastAccessed": 1773246178839,
+      "type": "file"
+    },
+    {
+      "path": "vercel.json",
+      "accessCount": 1,
+      "lastAccessed": 1773246219316,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
